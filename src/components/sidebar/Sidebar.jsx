@@ -44,9 +44,17 @@ function NavItem({ children }) {
 
 function Sidebar({ open, navOpen, navStatus  }) {
   // console.log(adminDeatails);
+
+  let check=open
+  if(navStatus){
+ check=navOpen
+  }else{
+    check=open
+  }
   return (
+    
     <>
-      {open ? (
+        {check? (
         <>
           <div
             style={{ background: "rgb(31, 32, 41)" }}

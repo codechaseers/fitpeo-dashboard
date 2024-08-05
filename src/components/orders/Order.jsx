@@ -7,7 +7,7 @@ import {
   } from "@heroicons/react/24/solid";
 export default function Order() {
   return (
-    <div className=" scroll-container lg:w-[60%] w-full h-[7.7em] bg-blue-gray- flex flex-wrap  items-center gap-4   overflow-scroll bg-blue-gray-20 0">
+    <div className=" scroll-container lg:w-[60%] w-full h-[7.7em] bg-blue-gray- flex flex-wrap  items-center gap-4   overflow-scroll  ">
     <style jsx>{`
       .scroll-container::-webkit-scrollbar {
         display: none; /* Chrome, Safari and Opera */
@@ -19,7 +19,7 @@ export default function Order() {
     `}</style>
     <div
       style={{ background: "rgb(31, 32, 41)" }}
-      className=" h-full w-[10em] rounded-[0.3em] "
+      className=" h-full w-[10em] rounded-[0.3em]  "
     >
       <div className="m-2">
         <div className="icon-container bg-blue-700 rounded-md w-8 h-8 flex items-center justify-center  ">

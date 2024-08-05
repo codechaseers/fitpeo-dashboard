@@ -73,10 +73,10 @@ function Navebar({ open, navOpen, handleOpen  }) {
           
 
           <div className="hidden items-center gap-2 lg:flex">
-            <Button variant="text" onClick={handleOpen}>
+            {/* <Button variant="text" onClick={handleOpen}>
               {" "}
               Logsdfs in
-            </Button>
+            </Button> */}
             <div className="bg-blue-gray-700 rounded-full h-7 w-7 flex justify-center items-center  ">
               <EnvelopeIcon
                 strokeWidth={2}
@@ -106,7 +106,7 @@ function Navebar({ open, navOpen, handleOpen  }) {
             onClick={handleOpen}
             className="ml-auto inline-block lg:hidden"
           >
-            {open ? (
+            {navOpen ? (
               <XMarkIcon strokeWidth={2} className="h-6 w-6 text-white" />
             ) : (
               <Bars3Icon strokeWidth={2} className="h-6 w-6 text-white" />
